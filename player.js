@@ -26,7 +26,11 @@ let physical =}
     let bonus = 0.5*this.stats.atk*Math.random();
     return baseDamage+bonus;
   }
-  charge:
+  let magic = {
+      if(this.stats.mp >=8){
+        this.stats.mp = this.stats.mp -8;
+        let tetertradice = math.random();
+        let pump= math.cell(this.stats.sp) 
 
 
 
