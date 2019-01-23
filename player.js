@@ -31,7 +31,9 @@ let physical =}
         this.stats.mp = this.stats.mp -8;
         let tetertradice = math.random();
         let pump= math.cell(this.stats.sp) 
-
+ 
+  let magic = {
+    
 
 
 
