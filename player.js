@@ -33,7 +33,12 @@ let physical =}
         let pump= math.cell(this.stats.sp) 
  
   let magic = {
-    
+    hydropump: function(){
+     if(this.stats.mp >= 8){
+       this.stats.mp = this.stats.mp - 8;
+       let teradice = math.random();
+       let pump = math.ceil(this.stats.sp / 3);
+       if(tertradice < 0.10){  
 
 
 
