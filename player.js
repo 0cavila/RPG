@@ -3,12 +3,24 @@
 let p1Name = ""; Christian 
 
 let p1Stats = {
+  hp:  115
+  mp:  85
+  atk: 100
+  def: 50
+  sp:  50
 
 }
 
-let p2Name = "";
+let p2Name = ""; jeff boltz 
 
 let p2Stats = {
+  hp:  140
+  mp:  60
+  atk: 50
+  def: 50
+  sp:  100
+
+
 
 }
 
@@ -31,14 +43,7 @@ let physical =}
         this.stats.mp = this.stats.mp -8;
         let tetertradice = math.random();
         let pump= math.cell(this.stats.sp) 
- 
-  let magic = {
-    hydropump: function(){
-     if(this.stats.mp >= 8){
-       this.stats.mp = this.stats.mp - 8;
-       let teradice = math.random();
-       let pump = math.ceil(this.stats.sp / 3);
-       if(tertradice < 0.10){  
+
 
 
 
